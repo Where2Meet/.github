@@ -26,3 +26,33 @@ for starter, 从一个活动开始 - skiiing
   - 保存店铺地理位置
 - 搜索:
   - 如果要一层一层的搜索, 这样过于繁琐, 要如何做好 search engine 是一大难点
+
+## Repositories
+
+### Client Apps
+
+| Platform  | Repo                                                                  | Status | Releases |
+| --------- | --------------------------------------------------------------------- | ------ | -------- |
+| Web (PWA) | [Where2Meet-spa](https://github.com/Where2Meet/WhereToMeet-spa)       | -      | -        |
+| Mobile    | [Where2Meet-mobile](https://github.com/Where2Meet/WhereToMeet-mobile) | -      | -        |
+
+### Database Platform
+
+| Repository                                                                                                                 | 🚀 Release Pipeline | ⚒️ Debug Pipeline |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------- |
+| [WhereToMeet](https://github.com/Where2Meet/Where2Meet) <br /> _(Super-repo containing all repos below as Git submodules)_ |                     |                   |
+| [Where2Meet.DataStore.Abstractions](https://github.com/Where2Meet/Where2Meet.DataStore.Abstraction)                        |                     |                   |
+| [Where2Meet.DataStore.MongoDB](https://github.com/Where2Meet/Where2Meet.DataStore.MongoDB)                                 |                     |                   |
+| [Where2Meet.DataStore.Redis](https://github.com/Where2Meet/Where2Meet.DataStore.Redis)                                     |                     |                   |
+| [Where2Meet.DataStore.DataManager](https://github.com/Where2Meet/Where2Meet.DataStore.DataManager)                         |                     |                   |
+| [Where2Meet.Search.Abstraction](https://github.com/Where2Meet/Where2Meet.Search.Abstraction)                               |                     |                   |
+| [Where2Meet.WebAPI](https://github.com/Where2Meet/Where2Meet.WebAPI)                                                       |                     |                   |
+
+### Docker & Kubernetes (K8s)
+
+| Repository | Pipelines |
+| ---------- | --------- |
+|            |           |
+|            |           |
+|            |           |
+|            |           |
